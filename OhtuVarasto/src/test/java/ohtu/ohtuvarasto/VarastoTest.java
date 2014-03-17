@@ -24,7 +24,7 @@ public class VarastoTest {
 	public void otaNegatiivinenMaara() {
 		varasto.lisaaVarastoon(3);
 		varasto.otaVarastosta(-23);
-		assertEquals(3, varasto.getSaldo(), vertailuTarkkuus);
+		assertEquals(2, varasto.getSaldo(), vertailuTarkkuus);
 	}
 
 	@Test
